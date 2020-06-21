@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ignition_gui</name>
+  <version>0.1.0</version>
+  <description>Ignition GUI Package</description>
+  <maintainer email="Levi.Armstrong@swri.org">Levi Armstrong</maintainer>
+  <license>Apache 2.0</license>
+  <author>Levi Armstrong</author>
+
+  <depend>ignition_rendering</depend>
+  <depend>ignition_msgs</depend>
+  <depend>ignition_common</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
